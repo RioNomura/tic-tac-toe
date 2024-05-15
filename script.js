@@ -56,7 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
           cellElement.textContent = player;
           cellElement.classList.add(player); // プレイヤーの記号に応じたクラスを追加
           turn++;
+          updateTurnMessage();
           checkWinner();
+        }
         }
       }
       
