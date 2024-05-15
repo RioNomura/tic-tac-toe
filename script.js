@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const player = players[turn % 3];
       
           // 1周目のoとxは中心の9マスは選択することができません
-          if (turn < 3 && player !== '△' && (5 < index && index < 10 || 10 < index && index < 15 || 15 < index && index < 20)) {
+          if (turn < 3 && player !== '△' && (5 < index && index < 9 || 10 < index && index < 14 || 15 < index && index < 19)) {
             return;
           }
       
