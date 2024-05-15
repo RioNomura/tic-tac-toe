@@ -59,7 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
           updateTurnMessage();
           checkWinner();
         }
-        }
       }
       
       function checkWinner() {
